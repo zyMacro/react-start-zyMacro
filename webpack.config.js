@@ -38,8 +38,8 @@ module.exports = {
                 loader: 'babel-loader',
                 exclude: /node_modules/
             }, {
-                test: /\.(css|scss)$/,
-                loader: "style-loader!css-loader!postcss-loader!sass-loader"
+                test: /\.(css|scss|less)$/,
+                loader: "style-loader!css-loader!postcss-loader!sass-loader!less-loader"
             }
         ]
     },
